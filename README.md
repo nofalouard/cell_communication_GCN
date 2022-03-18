@@ -54,7 +54,7 @@ Single cell datasets should be in '.h5ad' file format, i.e. Anndata files. In th
     python analyze_coexpression.py folder_name
     ```
 
-    This finds gene pairs that the cells of each graph domain (identified in step 3) co-express for each dataset stored under the specified folder. It then outputs the common gene pairs shared across all the datasets. These co-expressed genes can potentially serve as ligand receptor pairs used among closely interacting cells in their communication pathways.
+    This finds gene pairs that the cells of each graph domain (identified in step 3) co-express for each dataset stored under the specified folder. It then outputs the common gene pairs significantly co-expressed in all the datasets. These co-expressed genes can potentially serve as ligand-receptor pairs used among closely interacting cells in their communication pathways.
 
     Outputted file:
 
